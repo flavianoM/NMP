@@ -11,9 +11,9 @@ open terminal and type: gcc -o nmp nmp.c -lm -O3
 
 ### HOW TO EXECUTE nmp ###
 
-open a terminal and type: ./nmp <FILE CONTAINING THE BIPARTITE NETWORK>
+open a terminal and type: ./nmp <<FILE CONTAINING THE BIPARTITE NETWORK>>
 
-where <FILE CONTAINING THE BIPARTITE NETWORK> must be formatted as in the following example:
+where <<FILE CONTAINING THE BIPARTITE NETWORK>> must be formatted as in the following example:
 
 0,0,0,14,1
 0,0,0,0,2
@@ -48,7 +48,7 @@ Node_i Node_k 1
 
 ------------------------------------------------------------------------------------
 
-### HOW PLOT THE NESTED ADJACENCY MATRIX ###
+### HOW TO PLOT THE NESTED ADJACENCY MATRIX ###
 
 open gnuplot and type: plot 'Anest_sampleNetwork.csv.txt' u 1:2:3 w p pt 5 palette
 
