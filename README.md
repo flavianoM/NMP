@@ -13,7 +13,7 @@ open terminal and type: gcc -o nmp nmp.c -lm -O3
 
 open a terminal and type: ./nmp <<FILE CONTAINING THE BIPARTITE NETWORK>>
 
-where <<FILE CONTAINING THE BIPARTITE NETWORK>> must be formatted as in the following example:
+where <<FILE CONTAINING THE BIPARTITE NETWORK>> is a txt file which must be formatted as in the following example:
 
 0,0,0,14,1
 0,0,0,0,2
